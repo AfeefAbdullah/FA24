@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Alexandra - Software Developer</title>
+    <title>Afeef Abdullah's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo"></div>
-            <ul>
+            <div class="logo">My Logo</div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -21,15 +27,71 @@
 
     <section class="intro">
         <div class="intro-content">
-            <h1>I'm Syed Afeef Abdullah <br>Glad to see you!</h1>
+            <h1>I'm Afeef Abdullah. <br>Glad to see you!</h1>
             <p>I'm a software developer! I can help you build a product, feature, or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
             <div class="social-icons">
-                <a href="#"><img src="icon-twitter.png" alt="Twitter"></a>
-                <a href="#"><img src="icon-linkedin.png" alt="LinkedIn"></a>
-                <a href="#"><img src="icon-medium.png" alt="Medium"></a>
-                <a href="#"><img src="icon-github.png" alt="GitHub"></a>
+                <a href="#"><img src="./images/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="./images/linkedin.png" alt="LinkedIn"></a>
+                <a href="#"><img src="./images/medium.png" alt="Medium"></a>
+                <a href="#"><img src="./images/github.png" alt="GitHub"></a>
             </div>
         </div>
     </section>
+
+    <section class="projects" id="portfolio">
+        
+        <div class="projects-grid">
+            <div class="project">
+                <div class="project-image">
+                    <img src="project1.png" alt="Project 1">
+                </div>
+                <div class="project-info">
+                    <h3>Tonic</h3>
+                    <p><strong>CANOPY</strong> • Back End Dev • 2015</p>
+                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                    <div class="tech-tags">
+                        <span>html</span>
+                        <span>css</span>
+                        <span>javascript</span>
+                    </div>
+                    <a href="#" class="project-btn">See project</a>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-image">
+                    <img src="project1.png" alt="Project 1">
+                </div>
+                <div class="project-info">
+                    <h3>Tonic</h3>
+                    <p><strong>CANOPY</strong> • Back End Dev • 2015</p>
+                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                    <div class="tech-tags">
+                        <span>html</span>
+                        <span>css</span>
+                        <span>javascript</span>
+                    </div>
+                    <a href="#" class="project-btn">See project</a>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-image">
+                    <img src="project1.png" alt="Project 1">
+                </div>
+                <div class="project-info">
+                    <h3>Tonic</h3>
+                    <p><strong>CANOPY</strong> • Back End Dev • 2015</p>
+                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                    <div class="tech-tags">
+                        <span>html</span>
+                        <span>css</span>
+                        <span>javascript</span>
+                    </div>
+                    <a href="#" class="project-btn">See project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
 </body>
 </html>
